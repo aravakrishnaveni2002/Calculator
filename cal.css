@@ -1,0 +1,130 @@
+body{
+
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+	align-items: center;
+}
+
+#container{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*justify-content: center;*/
+	width: 600px;
+	height: 530px;
+	background-color: lightgrey;
+	margin: 50px;
+}
+
+#heading{
+	display: flex;
+	flex-direction: column;
+	align-items: centere;
+	justify-content: center;
+	width: 580px;
+	height: 50px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	background-color: black;
+}
+
+#heading span{
+
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+#display{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+	width: 580px;
+	height: 100px;
+	background-color: aliceblue;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+#content{
+	color: blue;
+	font-size: 50px;
+
+
+}
+
+
+#cal{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 580px;
+	height: 306px;
+}
+
+.btn{
+
+}
+
+
+
+.element{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 143px;
+	height: 60px;
+	/*background-color: black;*/
+	margin: 1px;
+}
+
+
+
+.element-double{
+	width: 288px;
+	height: 60px;
+	margin: 1px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.element:hover{
+
+	background-color: orange;
+}
+
+.element-double:hover{
+
+	background-color: orange;
+}
+
+.element span{
+
+	font-size: 30px;
+
+}
+
+.element-double span{
+	font-size: 30px;
+}
+
+.white-element{
+
+	background-color: white;
+	color: black;
+}
+
+.orange-element{
+
+	background-color: indianred;
+	color: white;
+}
